@@ -46,3 +46,8 @@ class Procedure_Code(models.Model):
 class Patient(models.Model):
     mrn = models.CharField(max_length=30, default = '')
     
+class Procedure_Map(models.Model):
+	codes = models.CharField(max_length=200, default='0')
+	full_name = models.CharField(max_length=100, default='')
+	abbrev_name = models.CharField(max_length=50, default='')
+    

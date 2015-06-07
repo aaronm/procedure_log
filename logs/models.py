@@ -29,11 +29,28 @@ class Procedure(models.Model):
 	outpatient = models.IntegerField(default = 1)
 	
 	def __str__(self):
+		if self.description:
+			return self.description
+			print "returned a description"
 		all_desc = ""
+		codes = self.procedure_code_set.values('code')
+		code_maps = Procedure_Map.objects.all()
+		for code in codes:
+				for code_map in code_maps:
+					proc_codes = code_map.codes.replace(".",",")
+					codearray = proc_codes.split(",")
+					print codearray
+					print code
+					if set(codearray) == set(code['code'].split(",")):
+						self.description = code_map.abbrev_name
+						self.save()
+						return code_map.abbrev_name
 		descriptions = self.procedure_code_set.values('description')
 		for description in descriptions:
 			all_desc +=  description['description'] +";"
 		return all_desc
+		
+		
     
 class Procedure_Code(models.Model):
 	code = models.CharField(max_length=50, default ='')

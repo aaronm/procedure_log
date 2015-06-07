@@ -1,0 +1,337 @@
+[
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 1,
+    "fields": {
+      "codes": "36556,76937,77001",
+      "full_name": "Nontunneled CVC w/ US",
+      "abbrev_name": "Nontunneled CVC w/ US"
+    }
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 2,
+    "fields": {
+      "codes": "36558,76937,77001",
+      "full_name": "Tunneled CVC",
+      "abbrev_name": "Tunneled CVC"
+    }
+  },
+    {
+    "model": "logs.Procedure_Map",
+    "pk": 3,
+    "fields": {
+      "codes": "49440",
+      "full_name": "Gtube",
+      "abbrev_name": "49440"
+    }
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 4,
+    "fields": {"codes":"49021,75989","full_name":"Peritoneal abscess drainage","abbrev_name":"Peritoneal absc"}
+
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 5,
+    "fields":{"codes":"37191","full_name":"Filter placement","abbrev_name":"IVC Filter"}
+
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 6,
+    "fields": {"codes":"36561,76937,77001","full_name":"Port placement","abbrev_name":"Port"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 7,
+    "fields": {"codes":"36245,36247,37204,75726,75726,75894,75898,96420","full_name":"Chembo 1","abbrev_name":"Chembo"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 8,
+    "fields": {"codes":"50392,74475","full_name":"Unilateral PCN","abbrev_name":"PCN Unilat"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 9,
+    "fields": {"codes":"36556,77001","full_name":"Nontunneled CVC w/o US","abbrev_name":"Nontun CVC wo US"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 10,
+    "fields": {"codes":"35476,36147,75978","full_name":"Fgram with PTA","abbrev_name":"Fgram w PTA"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 11,
+    "fields": {"codes":"49450","full_name":"Gtube replacement","abbrev_name":"Gtube replace"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 12,
+    "fields": {"codes":"36569,76937,77001","full_name":"PICC","abbrev_name":"PICC >5yrs"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 13,
+    "fields": {"codes":"49423,49424,75984,76080","full_name":"PAD chk and chg","abbrev_name":"Absc chk chg"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 14,
+    "fields": {"codes":"36581,77001","full_name":"Tunneled CVC exchange","abbrev_name":"Tun CVC xchg"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 15,
+    "fields": {"codes":"49061,75989","full_name":"Retroperitoneal absc drainage","abbrev_name":"Retroperit absc"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 16,
+    "fields": {"codes":"35476,36147,36148,36870,75978","full_name":"Declot with PTA","abbrev_name":"Declot"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 17,
+    "fields": {"codes":"36580,77001","full_name":"Nontunneled CVC exchg","abbrev_name":"Nontun CVC xchg"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 18,
+    "fields": {"codes":"47490","full_name":"Cholecystostomy","abbrev_name":"Gbdrain"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 19,
+    "fields": {"codes":"49424,76080","full_name":"PAD chk","abbrev_name":"PAD chk"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 20,
+    "fields": {"codes":"49465","full_name":"G tube chk","abbrev_name":"Gtube chk"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 21,
+    "fields": {"codes":"49452","full_name":"GJ tube replacement","abbrev_name":"GJ replace"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 22,
+    "fields": {"codes":"37210","full_name":"UFE","abbrev_name":"UFE"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 23,
+    "fields": {"codes":"10140.75989","full_name":"Seroma drainage","abbrev_name":"Seroma drain"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 24,
+    "fields": {"codes":"37182,49083,76937","full_name":"TIPS","abbrev_name":"TIPS"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 25,
+    "fields": {"codes":"49423.75984","full_name":"PAD exchange","abbrev_name":"Absc cath chg"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 26,
+    "fields": {"codes":"77001","full_name":"Central line fluoro","abbrev_name":"CVC fluoro"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 27,
+    "fields": {"codes":"36010,37620,75825,75940,76937","full_name":"IVC filter","abbrev_name":"IVC Filter"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 28,
+    "fields": {"codes":"36147","full_name":"Fgram","abbrev_name":"Fgram w PTA"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 29,
+    "fields": {"codes":"36011,37200,75891,75970,76937","full_name":"Transjug Liver Bx w/o pressures","abbrev_name":"TJ Liver Bx"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 30,
+    "fields": {"codes":"50398,75984,75984","full_name":"PCN chg bilateral","abbrev_name":"PCN chg bilat"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 31,
+    "fields": {"codes":"32551.75989","full_name":"Chest tube","abbrev_name":"Chest tube"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 32,
+    "fields": {"codes":"36245,36247,36248,37204,75726,75726,75774,75894,75898,96420","full_name":"Chembo 3","abbrev_name":"Chembo"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 33,
+    "fields": {"codes":"47505.74305","full_name":"Cholangiogram","abbrev_name":"Cholangiogm"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 34,
+    "fields": {"codes":"36011,37200,75889,75970,76937","full_name":"Transjug Liver Bx w pressures","abbrev_name":"TJ Liver Bx"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 35,
+    "fields": {"codes":"47505,47525,74305,75984","full_name":"Biliary tube chg with cholangiogm","abbrev_name":"Biliary chg w gram"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 36,
+    "fields": {"codes":"50392,74475,74475","full_name":"Bilateral PCN","abbrev_name":"PCN Bilat"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 37,
+    "fields": {"codes":"35476,36147,75978,76937","full_name":"Fgram with PTA and US","abbrev_name":"Fgram w PTA"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 38,
+    "fields": {"codes":"36247,36248,37204,75726,75774,75894,75898,96420","full_name":"Chembo","abbrev_name":"Chembo"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 39,
+    "fields": {"codes":"36589","full_name":"Tunneled cath removal","abbrev_name":"Tun CVC remov"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 40,
+    "fields": {"codes":"58823.75989","full_name":"TRAD","abbrev_name":"TRAD"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 41,
+    "fields": {"codes":"47500,47511,74320,75982","full_name":"PTC with int/ext biliary drainage","abbrev_name":"Biliary drainage"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 42,
+    "fields": {"codes":"49440.49446","full_name":"GJ tube placement","abbrev_name":"GJ placement"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 43,
+    "fields": {"codes":"50398.75984","full_name":"PCN chg unilateral","abbrev_name":"PCN chg unilat"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 44,
+    "fields": {"codes":"50393.74480","full_name":"Ureteral stent placement","abbrev_name":"Ureteral stent"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 45,
+    "fields": {"codes":"50394.74425","full_name":"Nephrostogram","abbrev_name":"Nephrostogm"}
+  },  
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 46,
+    "fields": {"codes":"47525.75984","full_name":"Chg biliary cath","abbrev_name":"Biliary cath chg"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 47,
+    "fields": {"codes":"49451","full_name":"J tube replacement","abbrev_name":"J tube replace"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 48,
+    "fields": {"codes":"35476,35476,36147,75978,75978","full_name":"Fgram with PTAx2","abbrev_name":"Fgram 2x PTA"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 49,
+    "fields": {"codes":"36247,37204,75726,75894,75898","full_name":"Abd angio with embo","abbrev_name":"Abd angio w embo"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 50,
+    "fields": {"codes":"36590","full_name":"Port removal","abbrev_name":"Port out"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 51,
+    "fields": {"codes":"37182,49080,76937,76942","full_name":"TIPS with paracentesis","abbrev_name":"TIPS"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 52,
+    "fields": {"codes":"37182.76937","full_name":"TIPS with US","abbrev_name":"TIPS"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 53,
+    "fields": {"codes":"76000","full_name":"Fluoro","abbrev_name":"Fluoro"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 54,
+    "fields": {"codes":"37183.76937","full_name":"TIPS revision","abbrev_name":"TIPS revise"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 55,
+    "fields": {"codes":"49041.75989","full_name":"Subphrenic abscess drainage","abbrev_name":"Subphren absc"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 56,
+    "fields": {"codes":"75989","full_name":"Guidance for abscess","abbrev_name":"Abscess guidance"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 57,
+    "fields": {"codes":"49418","full_name":"Perm peritoneal cath","abbrev_name":"Per peritoneal cath"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 58,
+    "fields": {"codes":"49446","full_name":"G to GJ conversion","abbrev_name":"G to GJ"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 59,
+    "fields": {"codes":"50393,50394,74425,74480","full_name":"Ureteral stent w nephrostogm","abbrev_name":"Ureteral st w chk"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 60,
+    "fields": {"codes":"35475,36147,36148,36870,75962","full_name":"Declot, PTA, 2 accesses","abbrev_name":"Declot"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 61,
+    "fields": {"codes":"36245,36247,37204,75726,75726,75894,75898,76380,96420","full_name":"Chembo 4","abbrev_name":"Chembo"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 62,
+    "fields": {"codes":"47011.75989","full_name":"Liver drainage","abbrev_name":"Liver drain"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 63,
+    "fields": {"codes":"49424,49424,76080,76080","full_name":"PAD chk x 2","abbrev_name":"PAD chk x2"}
+  },
+  {
+    "model": "logs.Procedure_Map",
+    "pk": 64,
+    "fields": {"codes":"50387","full_name":"Nephroureteral stent chg","abbrev_name":"NephroU stent chg"}
+  }
+]
+

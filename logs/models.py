@@ -67,4 +67,3 @@ class Procedure_Map(models.Model):
 	codes = models.CharField(max_length=200, default='0')
 	full_name = models.CharField(max_length=100, default='')
 	abbrev_name = models.CharField(max_length=50, default='')
-    

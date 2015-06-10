@@ -16,7 +16,14 @@ class ProcedureInline(admin.StackedInline):
 class TraineeAdmin(admin.ModelAdmin):
 
     inlines = [ProcedureInline]
-    class Media:
-        js = ['js/jquery-1.3.2.min.js', 'static/js/collapsed_stacked_inlines.js',]
+
+class ProcedureCodeInline(admin.StackedInline):
+	model = Procedure_Code
+	extra = 10
+	
+class ProcedureAdmin(admin.ModelAdmin):
+	
+	inlines = [ProcedureCodeInline]
 
 admin.site.register(Trainee, TraineeAdmin)
+admin.site.register(Procedure, ProcedureAdmin)

@@ -45,9 +45,18 @@ class Migration(migrations.Migration):
             name='Procedure_Code',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('code', models.IntegerField(default=0)),
+                ('code', models.CharField(default=b'', max_length=50)),
                 ('description', models.CharField(default=b'', max_length=200)),
                 ('procedure', models.ForeignKey(blank=True, to='logs.Procedure', null=True)),
+            ],
+        ),
+        migrations.CreateModel(
+            name='Procedure_Map',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('codes', models.CharField(default=b'0', max_length=200)),
+                ('full_name', models.CharField(default=b'', max_length=100)),
+                ('abbrev_name', models.CharField(default=b'', max_length=50)),
             ],
         ),
         migrations.CreateModel(

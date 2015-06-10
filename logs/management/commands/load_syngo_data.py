@@ -37,7 +37,7 @@ class Command(BaseCommand):
 			reader = csv.reader(f, delimiter='\t')
 			for row in reader:	
 				if len(row) > 1 and row[START_TIME] and row[RAD_1]:
-					procedure, created = Procedure.objects.get_or_create(start_time = datetime.strptime(row[START_TIME], "%b %d, %Y  %I:%M%p"), mrn = row[MRN], duration=self.calcDuration( row[START_TIME], row[END_TIME]))
+					procedure, created = Procedure.objects.get_or_create(start_time = datetime.strptime(row[START_TIME], "%b %d, %Y  %I:%M%p"), mrn = '00000', duration=self.calcDuration( row[START_TIME], row[END_TIME]))
 					if created:
 						procedure.attending, created = Attending.objects.get_or_create(abbrev_name = row[RAD_1]);
 						if row[RAD_2]: 

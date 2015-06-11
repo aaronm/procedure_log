@@ -10,7 +10,6 @@ admin.site.register(Procedure_Map)
 # Register your models here.
 class ProcedureInline(admin.StackedInline):
     model = Procedure
-    extra = 10
     
     
 class TraineeAdmin(admin.ModelAdmin):
@@ -19,7 +18,8 @@ class TraineeAdmin(admin.ModelAdmin):
 
 class ProcedureCodeInline(admin.StackedInline):
 	model = Procedure_Code
-	extra = 10
+	extra = 0
+
 	
 class ProcedureAdmin(admin.ModelAdmin):
 	

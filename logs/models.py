@@ -1,4 +1,5 @@
 from django.db import models
+from itertools import chain
 
 # Create your models here.
 class Attending(models.Model):
@@ -33,18 +34,19 @@ class Procedure(models.Model):
 			return self.description
 			print "returned a description"
 		all_desc = ""
+		print self.procedure_code_set.values()
 		codes = self.procedure_code_set.values('code')
+		print chain(*codes)
 		code_maps = Procedure_Map.objects.all()
-		for code in codes:
-				for code_map in code_maps:
-					proc_codes = code_map.codes.replace(".",",")
-					codearray = proc_codes.split(",")
-					print codearray
-					print code
-					if set(codearray) == set(code['code'].split(",")):
-						self.description = code_map.abbrev_name
-						self.save()
-						return code_map.abbrev_name
+		code_list = ''
+		#code_list = codes.values()
+		for code_map in code_maps:
+			proc_codes = code_map.codes.replace(".",",")
+			codearray = proc_codes.split(",")
+			if set(codearray) == set(code_list):
+				#self.description = code_map.abbrev_name
+				#self.save()
+				return code_map.abbrev_name
 		descriptions = self.procedure_code_set.values('description')
 		for description in descriptions:
 			all_desc +=  description['description'] +";"
